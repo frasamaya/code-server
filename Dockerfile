@@ -15,6 +15,7 @@ RUN \
   echo "**** install runtime dependencies ****" && \
   apt-get update && \
   apt-get install -y \
+    unzip \
     git \
     jq \
     libatomic1 \
